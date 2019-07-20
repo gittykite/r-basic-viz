@@ -20,11 +20,8 @@ R-for-Windows3.6.1 (core)
 * [편집]-[GUI설정] - 폰트조절
 
 ## R-studio 다운로드
-https://www.rstudio.com/
-* 데이터 많을 경우 대용량 메모리 필요 -> 서버용 이용
-
-RStudio 1.2.1335 - Windows 7+ (64-bit)
-https://download1.rstudio.org/desktop/windows/RStudio-1.2.1335.exe
+https://www.rstudio.com/ 에서 데스크톱 버전 다운로드 (대용량 데이터는 고메모리 지원하는 서버용 필요)
+[RStudio 1.2.1335 - Windows 7+ (64-bit)](https://download1.rstudio.org/desktop/windows/RStudio-1.2.1335.exe) 
 
 ## R-studio 실행
 * R-core가 설치된 상태여야 함(실행 시 코어 불러옴)
@@ -36,15 +33,15 @@ https://download1.rstudio.org/desktop/windows/RStudio-1.2.1335.exe
  
 ## R-studio 내부 설정
 * [Tools]-[Global Options]-[General]-[Basic]-[R Sessions]
-
+'''
     # Default Working Directory 설정
-    getwd()         # 반영 여부 확인
+    getwd()             # 반영 여부 확인
     setwd("c:\\Rdata")  #
     setwd("c:/Rdata")   # 
     dir("c:/Rlab/data_kim")
-
+'''
 * [Tools]-[Global Options]-[Code]-[Saving]-[Default Text Encoding] 
- :UTF-8 으로 설정 (한글처리)
+  + UTF-8 으로 설정 (한글처리)
 
 * [Tools]-[Global Options]-[Panel Layout]
-  :편집창 / 콘솔 / 정보패널/ 비주얼패널 
+  + 편집창 / 콘솔 / 정보패널/ 비주얼패널 위치 조절
