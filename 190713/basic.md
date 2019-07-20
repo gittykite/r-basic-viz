@@ -23,7 +23,8 @@ R-for-Windows3.6.1 (core)
 https://www.rstudio.com/
 * 데이터 많을 경우 대용량 메모리 필요 -> 서버용 이용
 
-[RStudio 1.2.1335 - Windows 7+ (64-bit)] (https://download1.rstudio.org/desktop/windows/RStudio-1.2.1335.exe)
+RStudio 1.2.1335 - Windows 7+ (64-bit)
+https://download1.rstudio.org/desktop/windows/RStudio-1.2.1335.exe
 
 ## R-studio 실행
 * R-core가 설치된 상태여야 함(실행 시 코어 불러옴)
@@ -36,11 +37,11 @@ https://www.rstudio.com/
 ## R-studio 내부 설정
 * [Tools]-[Global Options]-[General]-[Basic]-[R Sessions]
 
-  # Default Working Directory 설정
-  getwd()         # 반영 여부 확인
-  setwd("c:\\Rdata")  #
-  setwd("c:/Rdata")   # 
-  dir("c:/Rlab/data_kim")
+    # Default Working Directory 설정
+    getwd()         # 반영 여부 확인
+    setwd("c:\\Rdata")  #
+    setwd("c:/Rdata")   # 
+    dir("c:/Rlab/data_kim")
 
 * [Tools]-[Global Options]-[Code]-[Saving]-[Default Text Encoding] 
  :UTF-8 으로 설정 (한글처리)
