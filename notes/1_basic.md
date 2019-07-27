@@ -45,3 +45,7 @@ https://www.rstudio.com/ 에서 데스크톱 버전 다운로드 (대용량 데�
 
 * [Tools]-[Global Options]-[Panel Layout]
   + 편집창 / 콘솔 / 정보패널/ 비주얼패널 위치 조절
+
+## R프로젝트 생성
+: [File] - [New Project] -[New Directory] - [New Project] - 폴더명 & 부모폴더 지정 (Working Direcotry 자동설정 됨)
+
