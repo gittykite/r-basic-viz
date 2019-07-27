@@ -8,6 +8,7 @@ dir() # show files in a directory
 ex1 <- read.table("C:/Rlab/data-kim/data.txt")
 ex1 <- read.table("data.txt")
 ex1
+```
 
 ## Write txt file
 ```
