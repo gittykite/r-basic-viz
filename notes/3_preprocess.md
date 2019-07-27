@@ -24,7 +24,7 @@ mode(data1)  # chracter
 write.table(data1, file = "matrix.txt")
 ```
 
-# r/w mutliple datatype set
+## r/w mutliple datatype set
 ```
 dataframe <- as.data.frame(data1)
 dataframe
@@ -33,7 +33,7 @@ write.table(data1, file = "dataframe.txt", sep="\t")
 read.table("matrix.txt", sep="$") # separate by undefined char
 ```
 
-#r/w csv files
+## r/w csv files
 ```
 read.csv("csv_exam.csv")
 read.csv("csv_exam.csv", header = T, sep = ",") # data with header
@@ -41,13 +41,13 @@ txt <- read.table("data.txt", header = T)
 write.csv(txt, file = "data.csv")
 ```
 
-# r/w on memory
+## r/w on memory
 ```
 load()
 save(txt, file = "data.rda")
 ```
 
-# r/w excel files
+## r/w excel files
 ```
 install.packages("readxl") # aware typo: READXL
 library("readxl") # can be replaced by require
